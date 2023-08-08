@@ -1,7 +1,11 @@
 # INCHCAPE DIGITAL Diego Cascavita prueba técnica
 
 This is the development of the technical test proposed by INCHCAPE DIGITAL BY DIEGO CASCAVITA
-using techniques such as pixel perfect and applying the Minimum Viable Product.(MVP)
+using techniques such as pixel perfect and applying the Minimum Viable Product (MVP) with model-view-controller
+architecture.
+
+# Live preview 
+https://inchcape-digital-diego-cascavita120230808114928.azurewebsites.net
 
 ## Prerequisites
 
@@ -18,7 +22,9 @@ Before getting started, ensure you have the following tools installed:
 
 ## Live Demo
 
-![Demo 1](https://raw.githubusercontent.com/DiegoCascavita/INCHCAPE-DIGITAL-Diego-Cascavita/master/INCHCAPE%20DIGITAL%20Diego%20Cascavita/wwwroot/assets/demo-1.png?token=GHSAT0AAAAAAB567IMHPMLWC3XKVK7CKIG4ZGSNAIA)
-![Imagen de ejemplo](https://raw.githubusercontent.com/DiegoCascavita/INCHCAPE-DIGITAL-Diego-Cascavita/master/INCHCAPE%20DIGITAL%20Diego%20Cascavita/wwwroot/assets/demo-2.png?token=GHSAT0AAAAAAB567IMHI42PBENL7MACR6YOZGSNM2A)
-![Imagen de ejemplo](https://raw.githubusercontent.com/DiegoCascavita/INCHCAPE-DIGITAL-Diego-Cascavita/master/INCHCAPE%20DIGITAL%20Diego%20Cascavita/wwwroot/assets/demo-3.png?token=GHSAT0AAAAAAB567IMGJRZGU73UYT4MS55SZGSNNPQ)
-![Imagen de ejemplo](https://raw.githubusercontent.com/DiegoCascavita/INCHCAPE-DIGITAL-Diego-Cascavita/master/INCHCAPE%20DIGITAL%20Diego%20Cascavita/wwwroot/assets/demo-4.png?token=GHSAT0AAAAAAB567IMGUFSAYP3E2RJWXZVYZGSNOBQ)
+![Demo 1](https://raw.githubusercontent.com/DiegoCascavita/INCHCAPE-DIGITAL-Diego-Cascavita1/master/INCHCAPE-DIGITAL-Diego-Cascavita1/wwwroot/assets/demo-1.png)
+![Imagen de ejemplo](https://raw.githubusercontent.com/DiegoCascavita/INCHCAPE-DIGITAL-Diego-Cascavita1/master/INCHCAPE-DIGITAL-Diego-Cascavita1/wwwroot/assets/demo-2.png)
+![Imagen de ejemplo](https://raw.githubusercontent.com/DiegoCascavita/INCHCAPE-DIGITAL-Diego-Cascavita1/master/INCHCAPE-DIGITAL-Diego-Cascavita1/wwwroot/assets/demo-3.png)
+![Imagen de ejemplo](https://raw.githubusercontent.com/DiegoCascavita/INCHCAPE-DIGITAL-Diego-Cascavita1/master/INCHCAPE-DIGITAL-Diego-Cascavita1/wwwroot/assets/demo-4.png)
+
+Copyright © 2023 Diego Cascavita
