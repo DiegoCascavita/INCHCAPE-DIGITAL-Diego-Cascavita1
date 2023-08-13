@@ -14,18 +14,17 @@ h2 {
     color: black;
 }
 
-.ford-logo {
-    width: 95px;
-    height: 35px;
-    margin-left: 20px;
-}
-
 .container {
     max-width: 1207px;
     border: 1px solid #bcc0b2;
     padding: 0;
 }
 
+.ford-logo {
+    width: 95px;
+    height: 35px;
+    margin-left: 20px;
+}
 
 /* Estilo para la barra de navegación */
 .navbar {
@@ -43,23 +42,23 @@ h2 {
     padding: 0;
 }
 
-    /* Estilo para los elementos de la lista */
-    .nav-list li {
-        margin-left: 30px;
-    }
+/* Estilo para los elementos de la lista */
+.nav-list li {
+   margin-left: 30px;
+}
 
-        /* Estilo para los enlaces en los elementos de la lista */
-        .nav-list li a {
-            text-decoration: none;
-            color: black;
-            font-size: 18px;
-            font-weight: 400;
-        }
+/* Estilo para los enlaces en los elementos de la lista */
+.nav-list li a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: 400;
+}
 
-            /* Cambia el color de los enlaces cuando se le hace hover */
-            .nav-list li a:hover {
-                color: #00095b;
-            }
+/* Cambia el color de los enlaces cuando se le hace hover */
+.nav-list li a:hover {
+     color: #00095b;
+}
 
 .blue-block {
     width: 100%;
@@ -75,10 +74,10 @@ h2 {
     font-weight: 600;
 }
 
-    .blue-block a {
-        color: #008cba;
-        text-decoration: none;
-    }
+.blue-block a {
+    color: #008cba;
+    text-decoration: none;
+}
 
 .h2-ford-lifestyle {
     padding: 60px;
@@ -130,10 +129,10 @@ h2 {
     max-width: calc(33.33% - 30px);
 }
 
-    .image-item img {
-        width: 100%;
-        height: 500px;
-        border-radius: 3px;
+.image-item img {
+    width: 100%;
+    height: 100%;
+    border-radius: 3px;
     }
 /*------------ Explore more ------------*/
 .pattern-image {
@@ -142,11 +141,11 @@ h2 {
     height: 300px;
 }
 
-    .pattern-image img {
-        width: 100%;
-        height: 100%;
-        object-fit: cover; /* Ajustar la imagen para llenar el contenedor */
-    }
+.pattern-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ajustar la imagen para llenar el contenedor */
+}
 
 .centered-content {
     position: absolute;
@@ -157,11 +156,11 @@ h2 {
     width: 80%;
 }
 
-    .centered-content h2 {
-        margin: 0;
-        padding: 0;
-        color: white;
-    }
+.centered-content h2 {
+    margin: 0;
+    padding: 0;
+    color: white;
+}
 
 .button-container {
     margin-top: 20px;
@@ -174,23 +173,23 @@ h2 {
     border-color: white;
 }
 
-    .button a {
-        display: block;
-        padding: 6px 40px;
-        background-color: transparent;
-        color: white;
-        text-decoration: none;
-        border-radius: 20px;
-        border: 2px solid white;
-        font-weight: 600;
-        transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease, border 0.3s ease;
-    }
+.button a {
+    display: block;
+    padding: 6px 40px;
+    background-color: transparent;
+    color: white;
+    text-decoration: none;
+    border-radius: 20px;
+    border: 2px solid white;
+    font-weight: 600;
+    transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease, border 0.3s ease;
+}
 
-        .button a:hover {
-            background-color: white;
-            color: blue;
-            transform: scale(1.1);
-        }
+.button a:hover {
+    background-color: white;
+    color: blue;
+    transform: scale(1.1);
+}
 
 /*------------ Footer ------------*/
 footer {
@@ -199,10 +198,10 @@ footer {
     gap: 20px; /* Espacio entre las columnas */
 }
 
-    footer p {
-        font-weight: 600;
-        font-size: 10px;
-    }
+footer p {
+    font-weight: 600;
+    font-size: 10px;
+}
 
 .column-1 {
     padding-left: 40px;
@@ -225,12 +224,12 @@ footer {
     gap: 15px; /* Espacio entre los elementos <p> */
 }
 
-    .column-2 .col-3 p {
-        margin: 0; /* Eliminar el margen por defecto de los párrafos */
-        grid-column: span 1; /* Hacer que cada <p> ocupe una columna completa */
-        margin-right: 80px;
-        width: 100%;
-    }
+.column-2 .col-3 p {
+    margin: 0; /* Eliminar el margen por defecto de los párrafos */
+    grid-column: span 1; /* Hacer que cada <p> ocupe una columna completa */
+    margin-right: 80px;
+    width: 100%;
+}
 
 .column-2 .Quick-links {
     margin-bottom: 25px; /* Ajustar el margen inferior según sea necesario */
@@ -239,5 +238,18 @@ footer {
     color: #00095b;
 }
 
-@media (min-width: 300px) and (max-width: 1200px) {
+@media (min-width: 300px) and (max-width: 667px) {
+    .ford-logo {
+        width: 95px;
+        height: 35px;
+        margin-left: 0px;
+    }
+    .footer {
+        grid-template-columns: 1fr; /* Cambia a una sola columna */
+    }
+
+    .column-2 .col-3 {
+        grid-template-columns: 1fr; /* Cambia a una sola columna */
+        gap: 10px; /* Ajusta el espacio entre los elementos <p> */
+    }
 }
